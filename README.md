@@ -17,3 +17,7 @@ ansible-galaxy collection install git+https://github.com/aseriesofdarkcaves/ansi
 # force an update (because usually the content of versions shouldn't change, but maybe you're just messing about)
 ansible-galaxy collection install git+https://github.com/aseriesofdarkcaves/ansible-collection-test.git#aseriesofdarkcaves/ansible_collection_test --force
 ```
+
+You can use the commands above to pull in the collection of choice.
+You can then use the base path of this repo to define your own Playbooks etc.
+You just need to make sure that you have told Ansible where to find the extra Roles via the `ansible.cfg file

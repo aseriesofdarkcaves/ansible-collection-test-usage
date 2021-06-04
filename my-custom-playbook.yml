@@ -1,0 +1,6 @@
+---
+- name: Ping all hosts using the ping-pong role
+  hosts: all
+  gather_facts: no
+  roles:
+  - ping-pong
