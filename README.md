@@ -13,4 +13,7 @@ ansible-galaxy collection install git@github.com:aseriesofdarkcaves/ansible-coll
 
 # via https
 ansible-galaxy collection install git+https://github.com/aseriesofdarkcaves/ansible-collection-test.git#aseriesofdarkcaves/ansible_collection_test
+
+# force an update (because usually the content of versions shouldn't change, but maybe you're just messing about)
+ansible-galaxy collection install git+https://github.com/aseriesofdarkcaves/ansible-collection-test.git#aseriesofdarkcaves/ansible_collection_test --force
 ```

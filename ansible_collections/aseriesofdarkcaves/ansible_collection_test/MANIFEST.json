@@ -1,0 +1,30 @@
+{
+ "collection_info": {
+  "namespace": "aseriesofdarkcaves",
+  "name": "ansible_collection_test",
+  "version": "1.0.0",
+  "authors": [
+   "aseriesofdarkcaves"
+  ],
+  "readme": "README.md",
+  "tags": [],
+  "description": "Messing about with Ansible Collections",
+  "license": [
+   "GPL-2.0-or-later"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/aseriesofdarkcaves/ansible-collection-test",
+  "documentation": "https://github.com/aseriesofdarkcaves/ansible-collection-test",
+  "homepage": "https://github.com/aseriesofdarkcaves/ansible-collection-test",
+  "issues": "https://github.com/aseriesofdarkcaves/ansible-collection-test/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "0ff7cf1d5e343557d809e4511bc38701f476ca739332bd998e67d5146cd4d1f5",
+  "format": 1
+ },
+ "format": 1
+}
