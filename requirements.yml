@@ -1,0 +1,5 @@
+---
+collections:
+  - name: https://github.com/aseriesofdarkcaves/ansible-collection-test.git#aseriesofdarkcaves/ansible_collection_test
+    type: git
+    version: master

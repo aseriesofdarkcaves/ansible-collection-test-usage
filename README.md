@@ -1,10 +1,12 @@
 # ansible-collection-test-usage
-Example for how to sync a collection from a Git repository.
+Example sync of a Collection from a Git repository.
+
 ## Requirements
 Ansible version 2.10 or later.
 
 ## Usage
-See `ansible.cfg` for specifying the collection installation target. 
+See `ansible.cfg` for specifying the collection installation target.
+Although there are some teething issues: https://github.com/ansible/ansible/issues/68915
 
 Source documentation [here](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html#installing-a-collection-from-a-git-repository).
 ```
@@ -20,4 +22,5 @@ ansible-galaxy collection install git+https://github.com/aseriesofdarkcaves/ansi
 
 You can use the commands above to pull in the collection of choice.
 You can then use the base path of this repo to define your own Playbooks etc.
-You just need to make sure that you have told Ansible where to find the extra Roles via the `ansible.cfg file
+You just need to make sure that you have told Ansible where to find the extra Roles via the `ansible.cfg` file
+It can also be done via a bash script and a `requirements.yml` file too
