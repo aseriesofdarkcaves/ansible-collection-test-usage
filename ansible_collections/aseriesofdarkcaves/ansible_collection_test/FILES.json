@@ -8,6 +8,41 @@
    "format": 1
   },
   {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4278c9d19da24fb6f13983a8b4188af47e92f530b7dde0fccae5bbf142fabd12",
+   "format": 1
+  },
+  {
+   "name": "playbooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/ping-pong.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f33525ac9e7ed5a7a46f8031b9e1a3ae4b6b2b8373bd48913574fd82098895b8",
+   "format": 1
+  },
+  {
+   "name": "playbooks/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "451e5316db4faea0bdbde16038541ed13df67c0ca76ec69073d8516b84286979",
+   "format": 1
+  },
+  {
    "name": "plugins",
    "ftype": "dir",
    "chksum_type": null,
@@ -26,6 +61,48 @@
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "75192508b44da4cd3501dddd7c025e0aed4b87c21ee096407f9c82e58f33c530",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ping-pong",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ping-pong/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "45dea25ada9d6eaac57c585b755de8524d10953c9570ceed2a07594baa41ce30",
+   "format": 1
+  },
+  {
+   "name": "roles/ping-pong/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ping-pong/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "17c89d65dbf87a878cfd5dbe340f91f9ae4751330852422e1911425f90c1dffe",
+   "format": 1
+  },
+  {
+   "name": "roles/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c6c3772043665ca67c98bfd71052e0de6f2dae524d50a015da34c66b8b326ee8",
    "format": 1
   }
  ],
