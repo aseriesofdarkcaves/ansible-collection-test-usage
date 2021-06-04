@@ -1,8 +1,16 @@
 # ansible-collection-test-usage
-Tried to follow [these](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html#installing-a-collection-from-a-git-repository)
-instructions, but can't seem to get it to work...
+Example for how to sync a collection from a Git repository.
+## Requirements
+Ansible version 2.10 or later.
 
-Turns out I was on Ansible 2.9 and support for this only came in 2.10...
+## Usage
+See `ansible.cfg` for specifying the collection installation target. 
+
+Source documentation [here](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html#installing-a-collection-from-a-git-repository).
 ```
-ansible-galaxy collection install git@github.com:aseriesofdarkcaves/ansible-collection-test.git
+# via ssh
+ansible-galaxy collection install git@github.com:aseriesofdarkcaves/ansible-collection-test.git#aseriesofdarkcaves/ansible_collection_test
+
+# via https
+ansible-galaxy collection install git+https://github.com/aseriesofdarkcaves/ansible-collection-test.git#aseriesofdarkcaves/ansible_collection_test
 ```
