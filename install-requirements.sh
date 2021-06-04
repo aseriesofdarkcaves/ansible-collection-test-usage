@@ -1,2 +1,3 @@
 #!/bin/sh
+# ansible_collections is always appended to the path for reasons which are not yet clear to me...
 ansible-galaxy collection install --collections-path ./collections --requirements-file ./requirements.yml --force
