@@ -8,6 +8,13 @@
    "format": 1
   },
   {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "83c559ff5205bcb45947843676ff8e959847955e3d36e52ddbd7c0c80eddfe68",
+   "format": 1
+  },
+  {
    "name": "docs",
    "ftype": "dir",
    "chksum_type": null,
@@ -18,7 +25,7 @@
    "name": "docs/README.md",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "4278c9d19da24fb6f13983a8b4188af47e92f530b7dde0fccae5bbf142fabd12",
+   "chksum_sha256": "6e55eb949497e933740ab115bd0164e49a8973bc3ad6eb1e6d3b1f779869d9a7",
    "format": 1
   },
   {
@@ -29,17 +36,17 @@
    "format": 1
   },
   {
-   "name": "playbooks/ping-pong.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "f33525ac9e7ed5a7a46f8031b9e1a3ae4b6b2b8373bd48913574fd82098895b8",
-   "format": 1
-  },
-  {
    "name": "playbooks/README.md",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "451e5316db4faea0bdbde16038541ed13df67c0ca76ec69073d8516b84286979",
+   "chksum_sha256": "901f0ffdaf14a470dc7cfafba55368154e85fe90eb37fbf68328693269bc6a64",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ping-pong.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ecd3e18fa550039f6beb2204b640bbd7064fc9a5b60516b8b9129e2a3f62ac0d",
    "format": 1
   },
   {
@@ -53,14 +60,7 @@
    "name": "plugins/README.md",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "44b233fcde1e862796065372aadaceb896ebf59b9ce5442d00eac70bc72d2c0d",
-   "format": 1
-  },
-  {
-   "name": "README.md",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "75192508b44da4cd3501dddd7c025e0aed4b87c21ee096407f9c82e58f33c530",
+   "chksum_sha256": "c82ee692702ec1dd604cdbc38ff252114e5204e1b0627045a66c9451e7a918ac",
    "format": 1
   },
   {
@@ -68,6 +68,13 @@
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "01710fc2849a5c94aa4d4aebc3f7757fc6dcd337aebc37be0183f8f3119b1f4d",
    "format": 1
   },
   {
@@ -81,7 +88,7 @@
    "name": "roles/ping-pong/README.md",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "45dea25ada9d6eaac57c585b755de8524d10953c9570ceed2a07594baa41ce30",
+   "chksum_sha256": "79d6d0b1691d48b2b2a1750243e431a4c66db3bab7ccdcd87ffc0582365cc035",
    "format": 1
   },
   {
@@ -95,14 +102,7 @@
    "name": "roles/ping-pong/tasks/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "17c89d65dbf87a878cfd5dbe340f91f9ae4751330852422e1911425f90c1dffe",
-   "format": 1
-  },
-  {
-   "name": "roles/README.md",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "c6c3772043665ca67c98bfd71052e0de6f2dae524d50a015da34c66b8b326ee8",
+   "chksum_sha256": "a8145780c791c80cfcb292bc172e1b7c36e80fb01f118f5b47067fb381639431",
    "format": 1
   }
  ],

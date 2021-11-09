@@ -10,7 +10,7 @@ Source documentation [here](https://docs.ansible.com/ansible/latest/user_guide/c
 Use `ínstall-requirements.sh` to pull the latest version of the collection specified in `requirements.yml`.
 
 Or manually:
-```
+```shell
 # via ssh
 ansible-galaxy collection install --collections-path ./collections git@github.com:aseriesofdarkcaves/ansible-collection-test.git#aseriesofdarkcaves/ansible_collection_test
 
